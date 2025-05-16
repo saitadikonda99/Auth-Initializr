@@ -4,7 +4,6 @@ import Image from 'next/image'
 import './navbar.css'
 
 import { MdOutlineLightMode } from "react-icons/md";
-import { BsMoonStarsFill } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
 import { FaCodeMerge } from "react-icons/fa6";
