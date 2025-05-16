@@ -1,0 +1,47 @@
+
+
+.FooterComponent {
+    width: 100%;
+    border-top: 1px solid #e8e8e8;
+}
+
+.FooterComponent-in {
+    width: 95%;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-one {
+    width: fit-content;
+}
+
+.footer-one p {
+    font-size: .9rem;
+    color: #000;
+    font-weight: 400;
+}
+
+.footer-one a {
+    text-decoration: underline;
+    font-size: .9rem;
+    color: #000;
+    font-weight: 400;
+}
+
+.footer-two {
+    width: fit-content;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+}
+
+.footer-two svg {
+    color: #ff0101;
+}

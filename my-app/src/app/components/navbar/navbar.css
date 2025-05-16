@@ -1,0 +1,97 @@
+
+
+.NavComponent {
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.NavComponent-in {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.Nav-one {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.Nav-one-one {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.Nav-one-one-img {
+    width: 10%;
+}
+
+.Nav-one-one-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Nav-one-one-text {
+    width: fit-content;
+}
+
+.Nav-one-one h1 {
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.Nav-one-two {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.Nav-one-two-star {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: 1px solid #dddcdc;
+}
+
+.Nav-one-two-star:hover {
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.Nav-one-two-star:hover .star-icon {
+    color: rgb(255, 217, 0);
+}
+
+.Nav-one-two-star svg {
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.Nav-one-two-theme {
+    width: fit-content;
+    border-radius: 50%;
+    padding: 0.5rem 0.5rem;
+}
+
+.Nav-one-two-theme:hover {
+    cursor: pointer;
+    background-color: #dddcdc;
+}
+
+.Nav-one-two-theme svg {
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: 600;
+}
