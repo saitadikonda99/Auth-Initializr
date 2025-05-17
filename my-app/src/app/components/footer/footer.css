@@ -3,6 +3,8 @@
 .FooterComponent {
     width: 100%;
     border-top: 1px solid #e8e8e8;
+    position: absolute;
+    bottom: 0;
 }
 
 .FooterComponent-in {
@@ -37,11 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: .5rem;
     border: 1px solid #e8e8e8;
     border-radius: 10px;
-}
-
-.footer-two svg {
-    color: #ff0101;
 }

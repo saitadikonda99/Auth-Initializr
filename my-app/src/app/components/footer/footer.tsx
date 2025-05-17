@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import './footer.css'
 
-import { FaHeart } from "react-icons/fa";
+import { SiBuymeacoffee } from "react-icons/si";
 
 const footer = () => {
   return (
@@ -14,8 +14,8 @@ const footer = () => {
                 </div>
 
                 <div className="footer-two">
-                    <FaHeart />
-                    <p>Sponsor</p>
+                    <SiBuymeacoffee />
+                    <p>Buy me a Coffee.</p>
                 </div>
             </div>
         </div>
